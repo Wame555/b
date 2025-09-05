@@ -8,7 +8,7 @@ set_languages("cxx17")
 add_rules("mode.debug", "mode.release")
 
 -- Csomagok hozzáadása (automatikus letöltés)
-add_requires("qt6", {system = false})
+add_requires("qt", {system = false})
 add_requires("ixwebsocket", {system = false})
 add_requires("nlohmann_json", {system = false})
 add_requires("libcurl", {system = false})
