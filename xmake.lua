@@ -8,7 +8,7 @@ set_languages("cxx17")
 add_rules("mode.debug", "mode.release")
 
 -- Qt6 útvonala manuális beállítása
-set_env("QT6_DIR", "C:\Qt\6.9.2\msvc2022_64")  -- Cseréld le a saját Qt6 útvonaldra!
+set_env("QT6_DIR", "C:/Qt/6.9.2/msvc2022_64")  -- Cseréld le a saját Qt6 útvonaldra!
 
 -- Csomagok hozzáadása (automatikus letöltés)
 add_requires("ixwebsocket", {system = false})
